@@ -184,7 +184,7 @@ export default function Hero() {
                 animate={introPhase === 2 ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 1, delay: 0.6 }}
               >
-                Atendimento especializado para crianças e adultos. Fisioterapia domiciliar humanizada em Colombo-PR e região metropolitana.
+                Prestando atendimento especializado para crianças e adultos. Fisioterapia domiciliar humanizada em Colombo, Curitiba e região metropolitana.
               </motion.p>
             </div>
 
@@ -256,7 +256,7 @@ export default function Hero() {
               {/* Main portrait wrapper */}
               <div className="relative w-full h-[500px] bg-slate-200 rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white group">
                 <img
-                  src="https://i.postimg.cc/pdpxrr9K/Captura-de-tela-2026-06-22-115057.png"
+                  src="https://i.postimg.cc/xTcNBwSc/634484.jpg"
                   alt="Dra. Aryane Bukner - Fisioterapeuta Neurofuncional"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top brightness-100 group-hover:scale-105 transition-transform duration-700"
@@ -265,12 +265,7 @@ export default function Hero() {
                 {/* Visual Overlay mimicking professional medical badge */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent pointer-events-none" />
                 
-                {/* Specialty Tags Overlay from Design HTML */}
-                <div className="absolute top-6 left-6 flex flex-col gap-2 pointer-events-none">
-                  <span className="bg-white/90 backdrop-blur px-3.5 py-1.5 rounded-full text-[10px] font-bold shadow-sm tracking-wider text-slate-800">🧒 PEDIÁTRICO</span>
-                  <span className="bg-white/90 backdrop-blur px-3.5 py-1.5 rounded-full text-[10px] font-bold shadow-sm tracking-wider text-slate-800">🧠 NEUROLOGIA</span>
-                  <span className="bg-white/90 backdrop-blur px-3.5 py-1.5 rounded-full text-[10px] font-bold shadow-sm tracking-wider text-slate-800">🏠 DOMICILIAR</span>
-                </div>
+
               </div>
             </motion.div>
           </div>

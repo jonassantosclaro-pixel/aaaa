@@ -20,14 +20,14 @@ export default function HomeCare() {
     {
       num: '03',
       icon: <Activity className="text-indigo-600 w-6 h-6" />,
-      title: 'Plano Baseado em Evidências',
-      desc: 'Criamos um protocolo exclusivo com metas e prazos reais compartilhados com os familiares. O tratamento é centrado no objetivo particular do paciente (Ex: sentar com autonomia ou voltar a andar).'
+      title: 'Plano de Tratamento Individualizado',
+      desc: 'Na reabilitação neurofuncional não trabalhamos com prazos fixos definidos. Estruturamos um plano de tratamento altamente individualizado com foco e objetivos funcionais claros para cada paciente.'
     },
     {
       num: '04',
       icon: <Home className="text-emerald-600 w-6 h-6" />,
-      title: 'Sessões e Reavaliações',
-      desc: 'Realizamos os treinos motores e a reabilitação com materiais portáteis estéreis trazidos pela terapeuta, com atualizações periódicas da escala funcional.'
+      title: 'Sessões e Reavaliação',
+      desc: 'Realização dos treinos motores empregando recursos terapêuticos especializados: eletroterapia, dry needling, ultrassom terapêutico, enfaixamento neurofuncional e Pilates baseado em evidência.'
     }
   ];
 
@@ -45,7 +45,7 @@ export default function HomeCare() {
               Como funciona o Atendimento Domiciliar?
             </h2>
             <p className="font-sans text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl">
-              Entenda o passo a passo simplificado para iniciar o tratamento neurofuncional especializado no conforto de sua casa em Colombo-PR e arredores.
+              Entenda o passo a passo simplificado para iniciar o tratamento neurofuncional especializado no conforto de sua casa em Colombo, Curitiba e região metropolitana.
             </p>
           </div>
           
@@ -102,10 +102,10 @@ export default function HomeCare() {
         {/* Additional trust info and Call To Action */}
         <div className="mt-16 bg-white rounded-3xl p-8 border border-slate-100 shadow-sm col-span-full max-w-4xl mx-auto text-center space-y-6">
           <h3 className="font-display font-semibold text-slate-800 text-lg sm:text-xl">
-            Toda a estrutura de reabilitação vai com a fisioterapeuta!
+            Toda a estrutura de atendimento vai com a fisioterapeuta!
           </h3>
           <p className="font-sans text-slate-600 text-sm max-w-2.5xl mx-auto leading-relaxed">
-            Você não precisa comprar aparelhos caros. A Dra. Aryane Bukner leva faixas elásticas, exercitadores, pesos, eletroestimulador portátil (FES/TENS), estimulação sensorial e todo o acervo técnico específico necessários para a conduta.
+            Você não precisa se preocupar em adquirir aparelhos caros. A Dra. Aryane Bukner leva todos os recursos terapêuticos necessários para as condutas no próprio domicílio: recursos de <strong>eletroterapia</strong>, instrumentos de <strong>dry needling (agulhamento a seco)</strong>, <strong>ultrassom terapêutico</strong>, fitas de <strong>enfaixamento neurofuncional</strong> e métodos de <strong>Pilates baseado em evidências</strong>.
           </p>
           <div className="pt-2">
             <a

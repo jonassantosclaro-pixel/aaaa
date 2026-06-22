@@ -126,7 +126,7 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold text-slate-400 text-xs uppercase tracking-wider">Área de Atendimento</p>
                       <p className="text-sm font-bold text-slate-100 leading-normal">
-                        Atendimento Domiciliar em Colombo-PR e toda a região metropolitana.
+                        Atendimento Domiciliar em Colombo, Curitiba e toda a região metropolitana.
                       </p>
                     </div>
                   </div>
@@ -139,7 +139,7 @@ export default function Contact() {
             <div className="bg-white p-6 rounded-3xl border border-slate-150/85 text-[11px] text-slate-400 space-y-2">
               <span className="font-bold text-slate-600 block">Informações de Credenciamento Clínico</span>
               <p>
-                Atuando em Colombo/PR desde 2026. Fisioterapeuta Dra. Aryane Bukner trabalha na reabilitação neurológica com foco em síndromes genéticas fisioterapia, fisioterapeuta domiciliar Colombo PR, reabilitação neurológica adulto, fisioterapia pediátrica Colombo e doenças raras Colombo.
+                Atuando em Colombo, Curitiba e região metropolitana desde 2026. Fisioterapeuta Dra. Aryane Bukner trabalha na reabilitação neurológica com foco em síndromes genéticas fisioterapia, fisioterapeuta domiciliar Curitiba e Colombo PR, reabilitação neurológica adulto, fisioterapia pediátrica Colombo e doenças raras Colombo.
               </p>
             </div>
           </div>

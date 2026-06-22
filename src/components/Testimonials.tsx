@@ -152,7 +152,7 @@ export default function Testimonials() {
               </div>
               <div className="pl-6 flex flex-col justify-center text-center sm:text-left">
                 <span className="text-xs font-bold text-slate-700">Certificado Google Oficial</span>
-                <span className="text-[10px] text-slate-450 mt-1">Avaliações consolidadas de Colombo-PR</span>
+                <span className="text-[10px] text-slate-450 mt-1">Colombo, Curitiba e Região Metropolitana</span>
               </div>
             </div>
           </div>

@@ -97,18 +97,14 @@ export default function About() {
                 Dra. Aryane Bukner
               </h2>
               <p className="text-sm text-serenity-dark font-semibold font-display italic">
-                Fisioterapeuta Neurofuncional • Colombo PR e região metropolitana
+                Fisioterapeuta Neurofuncional • Colombo, Curitiba e Região Metropolitana
               </p>
             </div>
 
             <div className="space-y-5 font-sans text-slate-600 text-base leading-relaxed">
               <p>
-                A <strong className="text-slate-800">Dra. Aryane Bukner</strong> é fisioterapeuta neurofuncional inteiramente dedicada à reabilitação de crianças e adultos com alterações neurológicas. Com atendimento domiciliar humanizado em Colombo e região metropolitana, busca incansavelmente promover autonomia, funcionalidade e qualidade de vida através de tratamentos altamente personalizados e baseados no que há de mais recente em evidências científicas.
+                A <strong className="text-slate-800">Dra. Aryane Bukner</strong> é fisioterapeuta neurofuncional inteiramente dedicada à reabilitação de crianças e adultos com alterações neurológicas. Com atendimento domiciliar humanizado em Colombo, Curitiba e região metropolitana, busca incansavelmente promover autonomia, funcionalidade e qualidade de vida através de tratamentos altamente personalizados e baseados no que há de mais recente em evidências científicas.
               </p>
-              
-              <blockquote className="border-l-4 border-serenity-medium pl-4 py-1.5 my-6 text-slate-700 italic bg-slate-50 rounded-r-lg font-medium">
-                “Hoje nasce a NeuroBloom, uma marca com identidade e propósito profundo: oferecer cuidado neurofuncional especializado, individualizado e verdadeiramente sensível às singularidades de cada trajetória.”
-              </blockquote>
 
               <p>
                 O atendimento domiciliar proporciona um pilar indispensável para quem enfrenta desafios motores: o treinamento no próprio ambiente de vida do paciente. Isso acelera a aprendizagem de tarefas diárias como alimentar-se, andar e realizar transferências de forma segura, garantindo um acolhimento carinhoso e integrador para os familiares.

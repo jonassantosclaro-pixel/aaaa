@@ -10,7 +10,7 @@ export default function Specialties() {
     { emoji: '🧒', text: 'Adulto | Pediátrico', desc: 'Acompanhamento sob medida para crianças em desenvolvimento motor e adultos que buscam manter ou reaver suas potencialidades.' },
     { emoji: '🧬', text: 'Síndromes Genéticas | Doenças Raras', desc: 'Protocolos adaptados para condições raras que demandam extremo carinho, paciência e atenção sensível a cada detalhe anatômico.' },
     { emoji: '⚡', text: 'Alterações Neurológicas', desc: 'Reabilitação direcionada para disfunções de força, tônus, equilíbrio e controle motor secundárias a lesões neurológicas.' },
-    { emoji: '🏠', text: 'Atendimento Domiciliar', desc: 'O máximo de comodidade, segurança e eficácia no seio do lar para Colombo e toda a região metropolitana.' }
+    { emoji: '🏠', text: 'Atendimento Domiciliar', desc: 'O máximo de comodidade, segurança e eficácia no seio do lar para Colombo, Curitiba e toda a região metropolitana.' }
   ];
 
   // Specific pathways and pathologies
@@ -119,7 +119,7 @@ export default function Specialties() {
             
             <div className="space-y-6 relative z-10">
               <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-white/50 px-3 py-1 rounded-full inline-block">
-                Colombo e RMC
+                Colombo, Curitiba e RMC
               </span>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-slate-800 tracking-tight leading-tight">
                 Dificuldade de locomoção? Atendemos em seu lar.

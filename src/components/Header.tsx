@@ -137,7 +137,7 @@ export default function Header() {
               ))}
               <div className="pt-4 border-t border-slate-100 flex flex-col gap-3">
                 <div className="flex items-center gap-2 px-4 py-2 text-sm text-slate-600">
-                  <span className="font-semibold text-slate-800">Cuidado Domiciliar em Colombo e Região</span>
+                  <span className="font-semibold text-slate-800">Cuidado Domiciliar em Colombo, Curitiba e Região</span>
                 </div>
                 <a
                   id="mobile-whatsapp-call"

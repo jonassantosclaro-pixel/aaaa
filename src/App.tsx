@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import AtypicalMother from './components/AtypicalMother';
 import Specialties from './components/Specialties';
 import Education from './components/Education';
 import HomeCare from './components/HomeCare';
@@ -26,6 +27,9 @@ export default function App() {
 
         {/* Story tell about the doctor and the brand values */}
         <About />
+
+        {/* Emotionally resonant mother's perspective and core caring values */}
+        <AtypicalMother />
 
         {/* Structured expertise emojis grid: Pediatric & Adult conditions */}
         <Specialties />
@@ -97,7 +101,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-2">
                   <MapPin size={14} className="text-serenity-medium shrink-0 mt-0.5" />
-                  <span>Domiciliar em Colombo e Região Metropolitana</span>
+                  <span className="text-slate-440">Domiciliar em Colombo, Curitiba e Região Metropolitana</span>
                 </li>
               </ul>
             </div>
