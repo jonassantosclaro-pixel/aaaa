@@ -1,0 +1,6 @@
+{
+  "name": "NeuroBloom Fisio",
+  "description": "Fisioterapia Neurofuncional Adulto e Pediátrico domiciliária com a Dra. Aryane Bukner. Atendimento em Colombo-PR e Região Metropolitana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

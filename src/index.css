@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-serenity-light: #A5D6FF;
+  --color-serenity-medium: #81C4E7;
+  --color-serenity-dark: #1A365D;
+  --color-foam-light: #98E6C9;
+  --color-foam-medium: #6EDCB3;
+  --color-foam-dark: #37A881;
+  --color-neutral-soft: #F7FAFC;
+  --color-deep-slate: #1A365D;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-deep-slate);
+    background-color: var(--color-neutral-soft);
+  }
+  
+  /* High contrast readable text defaults */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Pulsing and organic animations */
+@keyframes bloom-glow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.5;
+    filter: blur(40px);
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.7;
+    filter: blur(55px);
+  }
+}
+
+.animate-bloom-glow {
+  animation: bloom-glow 10s infinite ease-in-out;
+}
+
+@keyframes wave-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+.animate-wave-float {
+  animation: wave-float 6s infinite ease-in-out;
+}
+
